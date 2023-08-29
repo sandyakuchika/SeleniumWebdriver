@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-08-30T04:55:32 SGT" name="Suite" finished-at="2023-08-30T04:57:15 SGT" duration-ms="103052">
+    <groups>
+    </groups>
+    <test started-at="2023-08-30T04:55:32 SGT" name="Test" finished-at="2023-08-30T04:57:15 SGT" duration-ms="103052">
+      <class name="testcases.BlazeTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.BlazeTest@7f485fda]" started-at="2023-08-30T04:56:42 SGT" name="setup" finished-at="2023-08-30T04:56:44 SGT" duration-ms="2251" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="findFlightTest()[pri:0, instance:testcases.BlazeTest@7f485fda]" started-at="2023-08-30T04:56:44 SGT" name="findFlightTest" finished-at="2023-08-30T04:56:51 SGT" duration-ms="6904" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findFlightTest -->
+      </class> <!-- testcases.BlazeTest -->
+      <class name="testcases.FixedDepositCalculator">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.FixedDepositCalculator@4b29d1d2]" started-at="2023-08-30T04:55:55 SGT" name="setup" finished-at="2023-08-30T04:55:58 SGT" duration-ms="2410" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="DepositCalculatorTest()[pri:0, instance:testcases.FixedDepositCalculator@4b29d1d2]" started-at="2023-08-30T04:55:58 SGT" name="DepositCalculatorTest" finished-at="2023-08-30T04:56:42 SGT" duration-ms="43812" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DepositCalculatorTest -->
+      </class> <!-- testcases.FixedDepositCalculator -->
+      <class name="testcases.BrokenLinks">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.BrokenLinks@350aac89]" started-at="2023-08-30T04:55:32 SGT" name="setup" finished-at="2023-08-30T04:55:38 SGT" duration-ms="5873" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="brokenLinksTest()[pri:0, instance:testcases.BrokenLinks@350aac89]" started-at="2023-08-30T04:55:38 SGT" name="brokenLinksTest" finished-at="2023-08-30T04:55:55 SGT" duration-ms="17489" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- brokenLinksTest -->
+      </class> <!-- testcases.BrokenLinks -->
+      <class name="testcases.CITBank_Deposit_Calculator">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.CITBank_Deposit_Calculator@28261e8e]" started-at="2023-08-30T04:56:51 SGT" name="setup" finished-at="2023-08-30T04:56:53 SGT" duration-ms="2304" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="depositCalculatior()[pri:0, instance:testcases.CITBank_Deposit_Calculator@28261e8e]" started-at="2023-08-30T04:56:53 SGT" name="depositCalculatior" finished-at="2023-08-30T04:57:15 SGT" duration-ms="21879" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- depositCalculatior -->
+      </class> <!-- testcases.CITBank_Deposit_Calculator -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
